@@ -1,0 +1,1651 @@
+Dependencies for Project 'LightSensor_V1_2', Target 'LightSensor_V1_2': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 for Certification (build 960)::.\ARMCC
+F (startup_stm32f103xe.s)(0x6449F203)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\Core\Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o lightsensor_v1_2\startup_stm32f103xe.o --depend lightsensor_v1_2\startup_stm32f103xe.d)
+F (../Core/Src/main.c)(0x644F2FED)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\main.o --omf_browse lightsensor_v1_2\main.crf --depend lightsensor_v1_2\main.d)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Core/Inc/dma.h)(0x644921D3)
+I (../Core/Inc/iwdg.h)(0x644921D3)
+I (../Core/Inc/rtc.h)(0x644FB561)
+I (../Core/Inc/usart.h)(0x644921D3)
+I (../Core/Inc/gpio.h)(0x644921D1)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+F (../Core/Src/gpio.c)(0x6449291A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\gpio.o --omf_browse lightsensor_v1_2\gpio.crf --depend lightsensor_v1_2\gpio.d)
+I (../Core/Inc/gpio.h)(0x644921D1)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/freertos.c)(0x644925E4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\freertos.o --omf_browse lightsensor_v1_2\freertos.crf --depend lightsensor_v1_2\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Hardwares/LCD/lcd_init.h)(0x643EB09C)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Hardwares/LCD/lcd.h)(0x62CF79C3)
+F (../Core/Src/dma.c)(0x644921D3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\dma.o --omf_browse lightsensor_v1_2\dma.crf --depend lightsensor_v1_2\dma.d)
+I (../Core/Inc/dma.h)(0x644921D3)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/iwdg.c)(0x644921D3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\iwdg.o --omf_browse lightsensor_v1_2\iwdg.crf --depend lightsensor_v1_2\iwdg.d)
+I (../Core/Inc/iwdg.h)(0x644921D3)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/rtc.c)(0x644FB569)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\rtc.o --omf_browse lightsensor_v1_2\rtc.crf --depend lightsensor_v1_2\rtc.d)
+I (../Core/Inc/rtc.h)(0x644FB561)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/usart.c)(0x6449F15B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\usart.o --omf_browse lightsensor_v1_2\usart.crf --depend lightsensor_v1_2\usart.d)
+I (../Core/Inc/usart.h)(0x644921D3)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (../Core/Src/stm32f1xx_it.c)(0x644FA7EC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_it.o --omf_browse lightsensor_v1_2\stm32f1xx_it.crf --depend lightsensor_v1_2\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x644921D4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_msp.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_msp.crf --depend lightsensor_v1_2\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x644921D4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_timebase_tim.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_timebase_tim.crf --depend lightsensor_v1_2\stm32f1xx_hal_timebase_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (..\Hardwares\LCD\lcd.c)(0x62D4E4D7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\lcd.o --omf_browse lightsensor_v1_2\lcd.crf --depend lightsensor_v1_2\lcd.d)
+I (..\Hardwares\LCD\lcd.h)(0x62CF79C3)
+I (..\SYSTEM\sys.h)(0x6427884F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (..\Hardwares\LCD\lcd_init.h)(0x643EB09C)
+I (..\Hardwares\LCD\lcdfont.h)(0x5EDEE16D)
+I (..\SYSTEM\delay.h)(0x6399532B)
+F (..\Hardwares\LCD\lcd_init.c)(0x643EB089)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\lcd_init.o --omf_browse lightsensor_v1_2\lcd_init.crf --depend lightsensor_v1_2\lcd_init.d)
+I (..\Hardwares\LCD\lcd_init.h)(0x643EB09C)
+I (..\SYSTEM\sys.h)(0x6427884F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (..\SYSTEM\delay.h)(0x6399532B)
+F (..\Hardwares\IIC\iic_hal.c)(0x6415CC89)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\iic_hal.o --omf_browse lightsensor_v1_2\iic_hal.crf --depend lightsensor_v1_2\iic_hal.d)
+I (..\Hardwares\IIC\iic_hal.h)(0x64278994)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (..\SYSTEM\delay.h)(0x6399532B)
+I (..\SYSTEM\sys.h)(0x6427884F)
+F (..\Hardwares\KEY\key.c)(0x6425A297)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\key.o --omf_browse lightsensor_v1_2\key.crf --depend lightsensor_v1_2\key.d)
+I (..\Hardwares\KEY\key.h)(0x6407E07F)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../SYSTEM/delay.h)(0x6399532B)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+F (..\Hardwares\BL24C02\BL24C02.c)(0x64462C13)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\bl24c02.o --omf_browse lightsensor_v1_2\bl24c02.crf --depend lightsensor_v1_2\bl24c02.d)
+I (..\Hardwares\BL24C02\BL24C02.h)(0x64462D69)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (..\Hardwares\IIC\iic_hal.h)(0x64278994)
+I (..\SYSTEM\delay.h)(0x6399532B)
+I (..\SYSTEM\sys.h)(0x6427884F)
+F (..\Hardwares\MAX44009\MAX44009.c)(0x6449D344)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\max44009.o --omf_browse lightsensor_v1_2\max44009.crf --depend lightsensor_v1_2\max44009.d)
+I (..\Hardwares\MAX44009\MAX44009.h)(0x641C1A8B)
+I (..\Hardwares\IIC\iic_hal.h)(0x64278994)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (..\Hardwares\Air724ug\Air724ug.c)(0x644FBC34)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\air724ug.o --omf_browse lightsensor_v1_2\air724ug.crf --depend lightsensor_v1_2\air724ug.d)
+I (..\Hardwares\Air724ug\Air724ug.h)(0x644F8836)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../SYSTEM/delay.h)(0x6399532B)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Core/Inc/usart.h)(0x644921D3)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+F (..\Hardwares\Air724ug\onenet_MQTT.c)(0x64648BF3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\onenet_mqtt.o --omf_browse lightsensor_v1_2\onenet_mqtt.crf --depend lightsensor_v1_2\onenet_mqtt.d)
+I (..\Hardwares\Air724ug\Air724ug.h)(0x644F8836)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (..\Hardwares\Air724ug\onenet_MQTT.h)(0x644F663F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../SYSTEM/delay.h)(0x6399532B)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Core/Inc/usart.h)(0x644921D3)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+F (..\SYSTEM\delay.c)(0x642E71EB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\delay.o --omf_browse lightsensor_v1_2\delay.crf --depend lightsensor_v1_2\delay.d)
+I (..\SYSTEM\delay.h)(0x6399532B)
+I (..\SYSTEM\sys.h)(0x6427884F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (..\Tasks\Src\user_TasksInit.c)(0x644FA637)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\user_tasksinit.o --omf_browse lightsensor_v1_2\user_tasksinit.crf --depend lightsensor_v1_2\user_tasksinit.d)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Core/Inc/iwdg.h)(0x644921D3)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Tasks/Inc/user_HardwaresInitTask.h)(0x642ECDAE)
+I (../Tasks/Inc/user_KeyTask.h)(0x63A00C05)
+I (../Tasks/Inc/user_CmdRecTask.h)(0x644F778B)
+I (../Tasks/Inc/user_MeasureSendTask.h)(0x644F959D)
+I (../Hardwares/LCD/lcd.h)(0x62CF79C3)
+F (..\Tasks\Src\user_KeyTask.c)(0x64492C8D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\user_keytask.o --omf_browse lightsensor_v1_2\user_keytask.crf --depend lightsensor_v1_2\user_keytask.d)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Hardwares/KEY/key.h)(0x6407E07F)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (..\Tasks\Src\user_HardwaresInitTask.c)(0x644FBA16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\user_hardwaresinittask.o --omf_browse lightsensor_v1_2\user_hardwaresinittask.crf --depend lightsensor_v1_2\user_hardwaresinittask.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Tasks/Inc/user_CmdRecTask.h)(0x644F778B)
+I (../Hardwares/KEY/key.h)(0x6407E07F)
+I (../Hardwares/Air724ug/Air724ug.h)(0x644F8836)
+I (../Hardwares/Air724ug/onenet_MQTT.h)(0x644F663F)
+I (../Hardwares/LCD/lcd.h)(0x62CF79C3)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Hardwares/LCD/lcd_init.h)(0x643EB09C)
+I (../Hardwares/MAX44009/Max44009.h)(0x641C1A8B)
+I (../Hardwares/IIC/iic_hal.h)(0x64278994)
+I (../Hardwares/BL24C02/BL24C02.h)(0x64462D69)
+I (../SYSTEM/delay.h)(0x6399532B)
+F (..\Tasks\Src\user_MeasureSendTask.c)(0x644FBD18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\user_measuresendtask.o --omf_browse lightsensor_v1_2\user_measuresendtask.crf --depend lightsensor_v1_2\user_measuresendtask.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Core/Inc/rtc.h)(0x644FB561)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Tasks/Inc/user_MeasureSendTask.h)(0x644F959D)
+I (../Tasks/Inc/user_KeyTask.h)(0x63A00C05)
+I (../Tasks/Inc/user_CmdRecTask.h)(0x644F778B)
+I (../Hardwares/Air724ug/Air724ug.h)(0x644F8836)
+I (../Hardwares/Air724ug/onenet_MQTT.h)(0x644F663F)
+I (../Hardwares/LCD/lcd.h)(0x62CF79C3)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Hardwares/LCD/lcd_init.h)(0x643EB09C)
+I (../Hardwares/MAX44009/Max44009.h)(0x641C1A8B)
+I (../Hardwares/IIC/iic_hal.h)(0x64278994)
+F (..\Tasks\Src\user_CmdRecTask.c)(0x644FB3F5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\user_cmdrectask.o --omf_browse lightsensor_v1_2\user_cmdrectask.crf --depend lightsensor_v1_2\user_cmdrectask.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/stm32f1xx_it.h)(0x644FA7F4)
+I (../Core/Inc/main.h)(0x644921D4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+I (../Tasks/Inc/user_TasksInit.h)(0x64278BD4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (../Tasks/Inc/user_CmdRecTask.h)(0x644F778B)
+I (../Hardwares/Air724ug/onenet_MQTT.h)(0x644F663F)
+I (../Hardwares/BL24C02/BL24C02.h)(0x64462D69)
+I (../Hardwares/IIC/iic_hal.h)(0x64278994)
+I (../SYSTEM/delay.h)(0x6399532B)
+I (../SYSTEM/sys.h)(0x6427884F)
+I (../Hardwares/LCD/lcd.h)(0x62CF79C3)
+I (../Hardwares/LCD/lcd_init.h)(0x643EB09C)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_gpio_ex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_gpio_ex.crf --depend lightsensor_v1_2\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal.o --omf_browse lightsensor_v1_2\stm32f1xx_hal.crf --depend lightsensor_v1_2\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_rcc.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_rcc.crf --depend lightsensor_v1_2\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_rcc_ex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_rcc_ex.crf --depend lightsensor_v1_2\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_gpio.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_gpio.crf --depend lightsensor_v1_2\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_dma.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_dma.crf --depend lightsensor_v1_2\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_cortex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_cortex.crf --depend lightsensor_v1_2\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_pwr.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_pwr.crf --depend lightsensor_v1_2\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_flash.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_flash.crf --depend lightsensor_v1_2\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_flash_ex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_flash_ex.crf --depend lightsensor_v1_2\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_exti.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_exti.crf --depend lightsensor_v1_2\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_iwdg.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_iwdg.crf --depend lightsensor_v1_2\stm32f1xx_hal_iwdg.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_rtc.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_rtc.crf --depend lightsensor_v1_2\stm32f1xx_hal_rtc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_rtc_ex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_rtc_ex.crf --depend lightsensor_v1_2\stm32f1xx_hal_rtc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_tim.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_tim.crf --depend lightsensor_v1_2\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_tim_ex.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_tim_ex.crf --depend lightsensor_v1_2\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stm32f1xx_hal_uart.o --omf_browse lightsensor_v1_2\stm32f1xx_hal_uart.crf --depend lightsensor_v1_2\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Core/Src/system_stm32f1xx.c)(0x6426676A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\system_stm32f1xx.o --omf_browse lightsensor_v1_2\system_stm32f1xx.crf --depend lightsensor_v1_2\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6426676A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x6426676A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6426675F)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6426676A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6449F1FF)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6426676A)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6426676A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6426676A)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\croutine.o --omf_browse lightsensor_v1_2\croutine.crf --depend lightsensor_v1_2\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\event_groups.o --omf_browse lightsensor_v1_2\event_groups.crf --depend lightsensor_v1_2\event_groups.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\list.o --omf_browse lightsensor_v1_2\list.crf --depend lightsensor_v1_2\list.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\queue.o --omf_browse lightsensor_v1_2\queue.crf --depend lightsensor_v1_2\queue.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\stream_buffer.o --omf_browse lightsensor_v1_2\stream_buffer.crf --depend lightsensor_v1_2\stream_buffer.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\tasks.o --omf_browse lightsensor_v1_2\tasks.crf --depend lightsensor_v1_2\tasks.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\timers.o --omf_browse lightsensor_v1_2\timers.crf --depend lightsensor_v1_2\timers.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\cmsis_os2.o --omf_browse lightsensor_v1_2\cmsis_os2.crf --depend lightsensor_v1_2\cmsis_os2.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6426675F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6426675F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\heap_4.o --omf_browse lightsensor_v1_2\heap_4.crf --depend lightsensor_v1_2\heap_4.d)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x64266760)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../SYSTEM -I ../Hardwares/Air724ug -I ../Hardwares/BL24C02 -I ../Hardwares/IIC -I ../Hardwares/KEY -I ../Hardwares/LCD -I ../Hardwares/MAX44009 -I ../Tasks/Inc-I.\RTE\_LightSensor_V1_2-ID:\softwares\KEIL5MDK\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\softwares\KEIL5MDK\packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o lightsensor_v1_2\port.o --omf_browse lightsensor_v1_2\port.crf --depend lightsensor_v1_2\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x64266760)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\softwares\KEIL5MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x644F708A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x64266760)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x64266760)
